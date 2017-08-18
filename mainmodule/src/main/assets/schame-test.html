@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+</head>
+
+<body>
+
+<h2>跳转测试</h2>
+
+<h2>自定义Scheme[通常来说都是这样的]</h2>
+<p><a href="arouter://victor.com/fromweb/activity">arouter://victor.com/fromweb/activity</a></p>
+<p><a href="arouter://victor.com/fromweb/activity?name=%E9%9A%94%E5%A3%81%E8%80%81%E7%8E%8B&age=18&gender=true">测试URL Encode情况，name=%E9%9A%94%E5%A3%81%E8%80%81%E7%8E%8B&age=18&gender=true 实际姓名为隔壁老王</a></p>
+<p><a href="arouter://victor.com/fromweb/activity?name=老王&age=18&gender=true">姓名为老王，年龄18，性别为true</a></p>
+<!--<p><a href="arouter://victor.com/test/activity2">arouter://victor.com/test/activity2</a></p>
+<p><a href="arouter://victor.com/test/activity2?key1=value1">arouter://victor.com/test/activity2?key1=value1</a></p>
+<p><a href="arouter://victor.com/test/activity3?name=alex&age=18&boy=true&high=180">arouter://victor.com/test/activity3?name=alex&age=18&boy=true&high=180</a></p>-->
+
+<h2>App Links[如果使用http https等shcema可能会被拦截哦]</h2>
+<p><a href="http://victor.com/fromweb/activity">http://victor.com/fromweb/activity</a></p>
+<p><a href="http://www.baidu.com">这个是百度的连接</a> </p>
+<!--<p><a href="http://victor.com/test/activity2">http://victor.com/test/activity2</a></p>-->
+
+</body>
+</html>
