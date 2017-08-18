@@ -1,0 +1,1 @@
+include ':app', ':groupbuy', ':common', ':mainmodule', ':takeawaymodule'
